@@ -1,7 +1,32 @@
 body{
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0;
+	color:
+}
+.Ldesign{
 	background-color: #fff29e;
+	color: #000742;
+}
+.Bdesign{
+	background-color: #2e2100;
+	color: #fff29e;
+}
+#togglebutton{
+	margin: 1.5% 1.5% 0%; padding: 0.2% 1.5%; border-radius: 5px; cursor: pointer; border:none;
+}
+.Ldesign #togglebutton{
+	background-color: #2e2100;
+	color: #fff29e;
+	-webkit-box-shadow: 1px 0px 10px 4px #2e2100;
+	-moz-box-shadow:    1px 0px 10px 4px #2e2100;
+	box-shadow:         1px 0px 10px 4px #2e2100;
+}
+.Bdesign #togglebutton{
+	background-color: #fff29e;
+	color: #000742;
+	-webkit-box-shadow: 1px 0px 10px 4px #fff29e;
+	-moz-box-shadow:    1px 0px 10px 4px #fff29e;
+	box-shadow:         1px 0px 10px 4px #fff29e;
 }
 nav{
 	padding: 0.5% 0%;
@@ -11,6 +36,10 @@ nav{
 .Ldesign nav{
 	background-color:#2e2100;
 	color:#fff29e;
+}
+.Bdesign nav{
+	background-color:#fff29e;
+	color:#2e2100;
 }
 nav ul{
 	font-size: 1.2rem;
@@ -24,18 +53,28 @@ nav ul li{
 	text-align: center;
 	font-weight: bold;
 	border-radius: 5px;
+}
+.Ldesign nav ul li{
 	background-color:#fff29e;
 	color: #2e2100;
 }
 .Ldesign nav ul li, .Ldesign header ul li{
-	border: 2px solid black; margin:1%;
+	border: 2px solid #2e2100; margin:1%;
+	padding: 0.3vw 1.5vw;
+}
+.Bdesign nav ul li{
+	background-color:#2e2100;
+	color: #fff29e;
+}
+.Bdesign nav ul li, .Bdesign header ul li{
+	border: 2px solid #fff29e; margin:1%;
 	padding: 0.3vw 1.5vw;
 }
 
 nav ul li a{text-decoration: none;}
 header h1{
 	margin-top: 3%;
-	width: auto;
+	width: auto; font-weight: bold;
 	text-align: center;
 }
 header p{
@@ -52,26 +91,49 @@ header > ul{
 	justify-content: center;
 }
 hr{
-	border-top: 2px solid #2e2100;
 	width: 85%;
 	margin-top: 2%;
 }
-
-.Ldesign table{
+.Ldesign hr{
+	border-top: 2px solid #2e2100;
+}
+.Bdesign hr{
+	border-top: 2px solid #fff29e;
+}
+.Ldesign table, .Bdesign table{
 margin-bottom: 20px;
 }
-table, th, tr, td {
-  	border: 1px solid black;
+.Ldesign table, .Ldesign th, .Ldesign tr, .Ldesign td {
+  	border: 1px solid #2e2100;
+  	border-collapse: collapse;
+}
+.Bdesign table, .Bdesign th, .Bdesign tr, .Bdesign td {
+  	border: 1px solid #fff29e;
   	border-collapse: collapse;
 }
 th{font-weight: bold;}
 th, td{ 
 	font-size: 1.2rem;
-	padding: 2% 15vw; margin-bottom: 100px;
+	padding: 2% 15vw;
+
 }
+th, td a{color: #2e2100;}
 tr:nth-child(even){
 	background-color: #a9a9a9;
 }
+tr:nth-child(odd){
+	background-color: #fff29e;
+}
+table a{text-decoration: none;}
+.Ldesign td:hover{background-color:#2e2100; text-decoration: underline;}
+.Ldesign table a:hover{
+	 color:#fff29e;
+}
+.Bdesign td:hover{background-color:#2e2100; text-decoration: underline;}
+.Bdesign table a:hover{
+	 color:#2e2100;
+}
+.Bdesign table a:hover{color: #fff29e; }
 .tablecontent{
 	width: auto;
 	margin: auto;
@@ -82,8 +144,13 @@ tr:nth-child(even){
 .tablecontent tr td{font-size: 1.3rem;}
 .sectionname{
 	margin: auto; width: auto; text-align: center;
-	background-image: radial-gradient(transparent 30%, #2e2100 80%);
 	font-size: 27px;
+}
+.Ldesign .sectionname{
+	background-image: radial-gradient(transparent 30%, #2e2100 80%);
+}
+.Bdesign .sectionname{
+	background-image: radial-gradient(transparent 30%, #fff29e 80%);
 }
 section{
 	margin: 2% auto;
@@ -94,31 +161,53 @@ section{
 	width: 90%;
 	grid-auto-rows: auto;
 	grid-template-columns: auto auto;
-	grid-template-rows: auto ;
+	grid-template-rows: auto;
+	font-weight: bold;
+}
+.Ldesign section .divpic{
+	border:2px solid #2e2100;
+}
+.Bdesign section .divpic{
+	border:2px solid #fff29e;
 }
 section .divpic{
-	border:2px solid black;
 	padding-bottom: 0;
 	grid-template-rows: 1/-1;
 	top:0;
 }
+.Ldesign section .divdescribe{
+	border:2px solid #2e2100;
+}
+.Bdesign section .divdescribe{
+	border:2px solid #2e2100;
+	background-color: #fff29e;
+	color: #2e2100;
+}
 section .divdescribe{
 	padding: 2%;
-	border:2px solid black;
-	font-size: 1.2rem; 
+	font-size: 1.25rem; 
 	overflow: hidden;
 }
-section .divdescribe span{
+.Ldesign section .divdescribe span{
 	font-weight: bold;
 	color: #4d4d4d;
+}
+.Bdesign section .divdescribe span{
+	font-weight: bold;
+	color: #c4c4c4;
 }
 section h1{
 	margin: 3%;
 }
-footer{
-	border-top: 2px solid #2e2100;
+.Ldesign footer{
 	padding: 2%;
 }
+.Ldesign footer{
+	border-top: 2px solid #2e2100;
+}
+.Bdesign footer{
+	border-top: 2px solid #fff29e;
+	}
 footer p{
 	text-align: center;
 	font-size: 18px;
