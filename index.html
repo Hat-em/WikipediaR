@@ -2,12 +2,9 @@
 <html>
 <head>
 	<title>Home</title>
-	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-
 	<script src="jquery-3.5.1.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
 	<meta charset="utf-8">
 	<meta name = "viewport" content = "width = device-width, initial-scale = 1"><link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -22,6 +19,11 @@
 		</ul>
 	</nav>
 	<header>
+		<div id="theme">
+			  
+		<button onclick="toggletheme()" id="togglebutton">Dark Theme</button>
+		  <!---->
+</div>
 		<h1>Welcome to Wikipedia</h1>
 		<p>the free encyclopedia that anyone can edit. 6,228,053 articles in English</p>
 		<ul>
@@ -39,13 +41,13 @@
 	</header>
 	<table class="tablecontent">
 		<tr><th>Content</th></tr>
-		<tr><td>From today's featured article</td></tr>
-		<tr><td>In the news</td></tr>
-		<tr><td>Did you know ...</td></tr>
-		<tr><td>On this day</td></tr>
-		<tr><td>Today's featured picture</td></tr>
+		<tr><td><a href="#sec1">From today's featured article</a></td></tr>
+		<tr><td><a href="#sec2">In the news</a></td></tr>
+		<tr><td><a href="#sec3">Did you know ...</a></td></tr>
+		<tr><td><a href="#sec4">On this day</a></td></tr>
+		<tr><td><a href="#sec5">Today's featured picture</a></td></tr>
 	</table>
-	<h1 class="sectionname">From today's featured article</h1>
+	<h1 class="sectionname" id="sec1">From today's featured article</h1>
 	<section>
 		<div class="secflex">
 			<img class="divpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/James_P._Hagerstrom.jpg/123px-James_P._Hagerstrom.jpg">
@@ -55,7 +57,7 @@
 				James Hagerstrom (January 14, 1921 – June 25, 1994) was a fighter ace of the U.S. Army Air Forces (USAAF) in World War II and the U.S. Air Force (USAF) in the Korean War. He is one of seven American pilots to have achieved ace status in two different wars. Hagerstrom joined the USAAF in 1941, and fought in the New Guinea campaign of World War II. There he shot down six Japanese aircraft, including four in one morning. After the war, he joined the Texas Air National Guard and participated in several air races. By 1950 he was in command of the 111th Fighter-Bomber Squadron, which was deployed to Korea during the Korean War. He transferred to the USAF and flew an F-86 Sabre jet in "MiG Alley", the area around the northern border of North Korea with China, destroying 8.5 Chinese, Soviet, and North Korean MiG-15s. In 1965, he served in several command roles during the Vietnam War while flying 30 combat missions. Hagerstrom died in Shreveport of stomach cancer in 1994. <span>...Full article</span></p>
 		</div>
 	</section>
-	<h1 class="sectionname">In the news</h1>
+	<h1 class="sectionname" id="sec2">In the news</h1>
 	<section>
 		<div  class="secflex">
 			<img class="divpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/124px-Donald_Trump_official_portrait.jpg">
@@ -67,15 +69,15 @@
 			<p>-Twenty-three people are killed during a police operation in Caracas, Venezuela.</p>	
 		</div>
 	</section>
-	<h1 class="sectionname">Did you know ..</h1>
+	<h1 class="sectionname" id="sec3">Did you know ..</h1>
 	<section>
 		<div class=secflex>
-			<img class="divpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Adi_Utarini_VOA_%28cropped%29.jpg/136px-Adi_Utarini_VOA_%28cropped%29.jpg">
+			<img class="divpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Galactic_Radiation_and_Background_satellite_1.jpg/128px-Galactic_Radiation_and_Background_satellite_1.jpg">
 		</div>
 		<div class="divdescribe">
-			<p>-that Adi Utarini (pictured) was listed as one of Nature's 10 in 2020 after she released infected mosquitoes all over Yogyakarta?</p>
-			<p>-that It's Elementary: Talking About Gay Issues in School was the first film to provide educators with information on how to prevent discrimination against gay people?</p>
-			<p>-that Esat Uras, a major perpetrator of the Armenian Genocide, later wrote "the ur-text of Turkish denialist 'scholarship'"?</p>		
+			<p>-that Galactic Radiation and Background (GRAB) was the first U.S. orbital surveillance program (satellite pictured), revolutionizing American understanding of Soviet air defense radar capabilities?</p>
+			<p>- that Turkey threatened that Jewish lives would be put in danger if the 1982 International Conference on the Holocaust and Genocide, which covered the Armenian Genocide, was not cancelled?</p>
+			<p>-that Canadian football broadcaster Ernie Calcutt coined the phrase "being as wide open as a church door on a Sunday morning"?</p>		
 			<p>-that a Canadian Supreme Court case about administrative law granted citizenship to a child of covert Russian agents?</p>
 			<p>-that the conchfish conceals itself in the mantle cavity of a living mollusc?</p>
 			<p>-that 2NE1's "I Am the Best" topped the Billboard World Digital Songs chart after being featured in a Microsoft commercial?</p>
@@ -83,7 +85,7 @@
 			<p>-that Joseph Bachelder III, pioneer of the golden-parachute executive compensation structure, represented John Sculley at Apple Inc., Jamie Dimon at Citigroup, and Louis Gerstner at RJR Nabisco and IBM?</p>
 		</div>
 	</section>
-	<h1 class="sectionname">On this day</h1>
+	<h1 class="sectionname" id="sec4">On this day</h1>
 	<section>
 		<div class=secflex>
 			<img class="divpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Kingston_%281907%29.jpg/162px-Kingston_%281907%29.jpg">
@@ -97,7 +99,16 @@
 			1967 – The Human Be-In, a countercultural event forming a prelude to the Summer of Love, was held in San Francisco's Golden Gate Park.	</p>
 		</div>
 	</section>
-
+	<h1 class="sectionname" id="sec5">Today's featured picture</h1>
+	<section>
+		<div class=secflex>
+			<img class="divpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Electric_guide_3%C3%972.5_mm.jpg/350px-Electric_guide_3%C3%972.5_mm.jpg" width="175" height="145">
+		</div>
+		<div class="divdescribe">
+			<p>	
+A thermoplastic-sheathed cable consists of a toughened outer thermoplastic sheath of polyvinyl chloride, covering one or more individual annealed copper conductors. Each of the current carrying conductors in the "core" is insulated by an individual thermoplastic sheath, coloured to indicate the purpose of the conductor concerned. The protective earth conductor may also be covered with insulation, although, in some countries, this conductor may be left as bare copper. The type of thermoplastic, the dimensions of the conductors and the colour of their individual insulation are specified by the regulatory bodies in the various countries concerned.</p>
+		</div>
+	</section>
 	<footer>
 		<p>Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.</p>
 		<hr>
@@ -105,49 +116,6 @@
 		<hr>
 		<p>Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization</p>
 	</footer>
-
-
-
-
-	<script>
-	//smoothly moving:
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 2000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
-  	//smoothly moving end
-</script>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
