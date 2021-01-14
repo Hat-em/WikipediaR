@@ -1,0 +1,144 @@
+body{
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 0;
+	background-color: #fff29e;
+}
+nav{
+	padding: 0.5% 0%;
+	margin-bottom: 0;
+	width: 100%;
+}
+.Ldesign nav{
+	background-color:#2e2100;
+	color:#fff29e;
+}
+nav ul{
+	font-size: 1.2rem;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0%;
+	padding-left: 0;
+}
+nav ul li{
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color:#fff29e;
+	color: #2e2100;
+}
+.Ldesign nav ul li, .Ldesign header ul li{
+	border: 2px solid black; margin:1%;
+	padding: 0.3vw 1.5vw;
+}
+
+nav ul li a{text-decoration: none;}
+header h1{
+	margin-top: 3%;
+	width: auto;
+	text-align: center;
+}
+header p{
+	font-size: 1.3rem;
+	text-align: center;
+}
+header > ul{
+ 	padding-left: 0px;
+ 	font-size: 1.2rem;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+hr{
+	border-top: 2px solid #2e2100;
+	width: 85%;
+	margin-top: 2%;
+}
+
+.Ldesign table{
+margin-bottom: 20px;
+}
+table, th, tr, td {
+  	border: 1px solid black;
+  	border-collapse: collapse;
+}
+th{font-weight: bold;}
+th, td{ 
+	font-size: 1.2rem;
+	padding: 2% 15vw; margin-bottom: 100px;
+}
+tr:nth-child(even){
+	background-color: #a9a9a9;
+}
+.tablecontent{
+	width: auto;
+	margin: auto;
+	margin-top: 3%;
+	text-align: center;
+	
+}
+.tablecontent tr td{font-size: 1.3rem;}
+.sectionname{
+	margin: auto; width: auto; text-align: center;
+	background-image: radial-gradient(transparent 30%, #2e2100 80%);
+	font-size: 27px;
+}
+section{
+	margin: 2% auto;
+	display: grid;
+	grid-gap: 5%;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	grid-auto-rows: auto;
+	grid-template-columns: 0.8fr 4fr;
+}
+section .divpic{
+	border:2px solid black;
+	padding-bottom: 0;
+	grid-template-rows: 1/-1;
+	top:0;
+}
+section .divdiscribe{
+	padding: 2%;
+	border:2px solid black;
+	font-size: 1.2rem; 
+	overflow: auto;
+}
+section h1{
+	margin: 3%;
+}
+footer{
+	border-top: 2px solid #2e2100;
+	padding: 1% 0.5%;
+}
+footer p{
+	text-align: center;
+	font-size: 18px;
+}
+footer hr{
+	width: 30%;
+	margin: 1% auto;
+}
+@media screen and (min-width: 601px) and (max-width: 935px){
+	section{
+		grid-template-columns: 2fr 4fr;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 600px){
+	nav ul li{
+		font-size: 0.95rem;
+	}
+	header ul{ margin: 0.8%; padding: 0;}
+	.Ldesign header ul li{font-size: 1.4rem;}
+	table th, td{ 
+	font-size: 0.7rem;
+	}
+}
+@media screen and (max-width: 400px){
+	nav ul li{
+		font-size: 0.7rem;
+	}
+}
