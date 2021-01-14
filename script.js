@@ -39,8 +39,6 @@ $('a[href*="#"]')
 
   	//change theme:
 function toggletheme (){
-	alert("theme changed");
-	
 	if ( document.querySelector("body").classList.contains('Ldesign') ){
 		document.querySelector("body").classList.add('Bdesign');
 		document.querySelector("body").classList.remove('Ldesign');
