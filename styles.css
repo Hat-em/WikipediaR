@@ -3,29 +3,29 @@ body{
 	margin: 0;
 }
 .Ldesign{
-	background-color: #fff29e;
+	background-color: cornsilk;
 	color: #000742;
 }
 .Bdesign{
 	background-color: #242424;
-	color: #fff29e;
+	color: cornsilk;
 }
 #togglebutton{
 	margin: 1.5% 1.5% 0%; padding: 0.2% 1.5%; border-radius: 5px; cursor: pointer; border:none;
 }
 .Ldesign #togglebutton{
 	background-color: #242424;
-	color: #fff29e;
+	color: cornsilk;
 	-webkit-box-shadow: 1px 0px 10px 4px #242424;
 	-moz-box-shadow:    1px 0px 10px 4px #242424;
 	box-shadow:         1px 0px 10px 4px #242424;
 }
 .Bdesign #togglebutton{
-	background-color: #fff29e;
+	background-color: cornsilk;
 	color: #000742;
-	-webkit-box-shadow: 1px 0px 10px 4px #fff29e;
-	-moz-box-shadow:    1px 0px 10px 4px #fff29e;
-	box-shadow:         1px 0px 10px 4px #fff29e;
+	-webkit-box-shadow: 1px 0px 10px 4px cornsilk;
+	-moz-box-shadow:    1px 0px 10px 4px cornsilk;
+	box-shadow:         1px 0px 10px 4px cornsilk;
 }
 nav{
 	padding: 0.5% 0%;
@@ -34,10 +34,10 @@ nav{
 }
 .Ldesign nav{
 	background-color:#242424;
-	color:#fff29e;
+	color:cornsilk;
 }
 .Bdesign nav{
-	background-color:#fff29e;
+	background-color:cornsilk;
 	color:#242424;
 }
 nav ul{
@@ -54,7 +54,7 @@ nav ul li{
 	border-radius: 5px;
 }
 .Ldesign nav ul li{
-	background-color:#fff29e;
+	background-color:cornsilk;
 }
 .Ldesign nav ul li a{color: #242424;}
 .Ldesign nav ul li, .Ldesign header ul li{
@@ -64,9 +64,9 @@ nav ul li{
 .Bdesign nav ul li{
 	background-color:#242424;
 }
-.Bdesign nav ul li a{color: #fff29e;}
+.Bdesign nav ul li a{color: cornsilk;}
 .Bdesign nav ul li, .Bdesign header ul li{
-	border: 2px solid #fff29e; margin:1%;
+	border: 2px solid cornsilk; margin:1%;
 	padding: 0.3vw 1.5vw;
 }
 
@@ -107,7 +107,7 @@ hr{
 	border-top: 2px solid #242424;
 }
 .Bdesign hr{
-	border-top: 2px solid #fff29e;
+	border-top: 2px solid cornsilk;
 }
 .Ldesign table, .Bdesign table{
 margin-bottom: 20px;
@@ -117,7 +117,7 @@ margin-bottom: 20px;
   	border-collapse: collapse;
 }
 .Bdesign table, .Bdesign th, .Bdesign tr, .Bdesign td {
-  	border: 1px solid #fff29e;
+  	border: 1px solid cornsilk;
   	border-collapse: collapse;
 }
 th{font-weight: bold;}
@@ -131,18 +131,18 @@ tr:nth-child(even){
 	background-color: #a9a9a9;
 }
 tr:nth-child(odd){
-	background-color: #fff29e;
+	background-color: cornsilk;
 }
 table a{text-decoration: none;}
 .Ldesign td:hover{background-color:#242424; text-decoration: underline;}
 .Ldesign table a:hover{
-	 color:#fff29e;
+	 color:cornsilk;
 }
 .Bdesign td:hover{background-color:#242424; text-decoration: underline;}
 .Bdesign table a:hover{
 	 color:#242424;
 }
-.Bdesign table a:hover{color: #fff29e; }
+.Bdesign table a:hover{color: cornsilk; }
 .tablecontent{
 	width: auto;
 	margin: auto;
@@ -158,7 +158,7 @@ table a{text-decoration: none;}
 	background-image: radial-gradient(transparent 30%, #242424 80%);
 }
 .Bdesign .sectionname{
-	background-image: radial-gradient(transparent 30%, #fff29e 80%);
+	background-image: radial-gradient(transparent 30%, cornsilk 80%);
 }
 section{
 	margin: 2% auto;
@@ -176,7 +176,7 @@ section{
 	border:2px solid #242424;
 }
 .Bdesign section .divpic{
-	border:2px solid #fff29e;
+	border:2px solid cornsilk;
 }
 section .divpic{
 	padding-bottom: 0;
@@ -188,7 +188,7 @@ section .divpic{
 }
 .Bdesign section .divdescribe{
 	border:2px solid #242424;
-	background-color: #fff29e;
+	background-color: cornsilk;
 	color: #242424;
 }
 section .divdescribe{
@@ -214,7 +214,7 @@ footer{
 	border-top: 2px solid #242424;
 }
 .Bdesign footer{
-	border-top: 2px solid #fff29e;
+	border-top: 2px solid cornsilk;
 	}
 footer p{
 	text-align: center;
@@ -237,10 +237,10 @@ footer hr{
 }
 .Ldesign .reg{
 	background-color: #242424;
-	color: #fff29e;
+	color: cornsilk;
 }
 .Bdesign .reg{
-	background-color: #fff29e;
+	background-color: cornsilk;
 	color: #242424;
 }
 .reg input{
@@ -249,12 +249,12 @@ footer hr{
 }
 /*Current Events Page*/
 .tble{width: 75%;}
-.Ldesign .tble th{background-color: #242424; color: #fff29e; width: 40%;}
+.Ldesign .tble th{background-color: #242424; color: cornsilk; width: 40%;}
 .Ldesign .tble tr, .Ldesign .tble td{
 	border:none;
-	background-color:#fff29e; 
+	background-color:cornsilk; 
 }
-.Bdesign .tble th{background-color: #fff29e; color: #242424; width: 100%;}
+.Bdesign .tble th{background-color: cornsilk; color: #242424; width: 100%;}
 .Bdesign .tble tr, .Bdesign .tble td{
 	border:none;
 	background-color:#242424; 
