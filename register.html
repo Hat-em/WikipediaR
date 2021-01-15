@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<script src="jquery-3.5.1.min.js"></script>
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1"><link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="Ldesign">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Categories</a></li>
+			<li><a href="current events.html">Current Events</a></li>
+			<li><a href="#">Article</a></li>
+			<li style="margin-left: auto; margin-right: 2%;"><a href="register.html">Create Account</a></li>
+		</ul>
+	</nav>
+	<header>
+		<div id="theme">
+			  
+			<button onclick="toggletheme()" id="togglebutton">Dark Theme</button>
+		</div>
+		<h1>Create account</h1>
+		<span>Note:Your username will be public.</span>
+		<p>Please consider using an anonymous username, and not your real name, unless you are comfortable with your identity being public for the entire internet to see and identify you.</p>
+		<p>Once an account has been created, it is essentially impossible to hide the original username should you later want to change it for privacy reasons.</p>
+	</header>
+
+	<div class="reg">
+		<p>Username</p>
+		<input type="text" name="username" placeholder="Name">
+		<p>Password</p>
+		<input type="Password" name="pass" placeholder="minimum 8 characters"> 
+		<span style="display: block;"><span style="text-decoration: underline;">Note:</span>It is recommended to use a unique password that you are not using on any other website.</span>
+		<p>Confirm Password</p>
+		<input type="Password" name="repass" placeholder="enter password again">
+		<p>Email (optional)</p>
+		<input type="email" name="mail" placeholder="Email address">
+		<input type="submit" name="Create Account" value="Create Account" style="display: block; margin: 25px auto 10px; background-color: #fff29e; box-shadow:1px 0px 10px 4px #fff29e;">
+	</div>
+	<table class="tablecontent" style="padding: 0%;">
+		<tr><th colspan="3">Wikipedia is made by people like you</th></tr>
+
+
+
+		<tr><td style="padding: 5px;">995,704,690 edits</td><td style="padding: 5px;">6,229,328 articles</td><td style="padding: 5px;">127,117 recent contributors</td></tr>
+	</table>
+	<footer>
+		<p>Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.</p>
+		<hr>
+		<p>By using this site, you agree to the Terms of Use and Privacy Policy</p>
+		<hr>
+		<p>Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization</p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
