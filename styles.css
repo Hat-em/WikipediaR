@@ -1,25 +1,24 @@
 body{
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0;
-	color:
 }
 .Ldesign{
 	background-color: #fff29e;
 	color: #000742;
 }
 .Bdesign{
-	background-color: #2e2100;
+	background-color: #242424;
 	color: #fff29e;
 }
 #togglebutton{
 	margin: 1.5% 1.5% 0%; padding: 0.2% 1.5%; border-radius: 5px; cursor: pointer; border:none;
 }
 .Ldesign #togglebutton{
-	background-color: #2e2100;
+	background-color: #242424;
 	color: #fff29e;
-	-webkit-box-shadow: 1px 0px 10px 4px #2e2100;
-	-moz-box-shadow:    1px 0px 10px 4px #2e2100;
-	box-shadow:         1px 0px 10px 4px #2e2100;
+	-webkit-box-shadow: 1px 0px 10px 4px #242424;
+	-moz-box-shadow:    1px 0px 10px 4px #242424;
+	box-shadow:         1px 0px 10px 4px #242424;
 }
 .Bdesign #togglebutton{
 	background-color: #fff29e;
@@ -34,12 +33,12 @@ nav{
 	width: 100%;
 }
 .Ldesign nav{
-	background-color:#2e2100;
+	background-color:#242424;
 	color:#fff29e;
 }
 .Bdesign nav{
 	background-color:#fff29e;
-	color:#2e2100;
+	color:#242424;
 }
 nav ul{
 	font-size: 1.2rem;
@@ -56,16 +55,16 @@ nav ul li{
 }
 .Ldesign nav ul li{
 	background-color:#fff29e;
-	color: #2e2100;
 }
+.Ldesign nav ul li a{color: #242424;}
 .Ldesign nav ul li, .Ldesign header ul li{
-	border: 2px solid #2e2100; margin:1%;
+	border: 2px solid #242424; margin:1%;
 	padding: 0.3vw 1.5vw;
 }
 .Bdesign nav ul li{
-	background-color:#2e2100;
-	color: #fff29e;
+	background-color:#242424;
 }
+.Bdesign nav ul li a{color: #fff29e;}
 .Bdesign nav ul li, .Bdesign header ul li{
 	border: 2px solid #fff29e; margin:1%;
 	padding: 0.3vw 1.5vw;
@@ -80,6 +79,8 @@ header h1{
 header p{
 	font-size: 1.3rem;
 	text-align: center;
+	width: 90%;
+	margin: 1% auto;
 }
 header > ul{
  	padding-left: 0px;
@@ -90,12 +91,20 @@ header > ul{
 	align-items: center;
 	justify-content: center;
 }
+header span{
+	text-decoration: underline;
+	font-weight: bold;
+	color: blue;
+	display: block;
+	text-align: center;
+	font-size: 1.1rem;
+}
 hr{
 	width: 85%;
 	margin-top: 2%;
 }
 .Ldesign hr{
-	border-top: 2px solid #2e2100;
+	border-top: 2px solid #242424;
 }
 .Bdesign hr{
 	border-top: 2px solid #fff29e;
@@ -104,7 +113,7 @@ hr{
 margin-bottom: 20px;
 }
 .Ldesign table, .Ldesign th, .Ldesign tr, .Ldesign td {
-  	border: 1px solid #2e2100;
+  	border: 1px solid #242424;
   	border-collapse: collapse;
 }
 .Bdesign table, .Bdesign th, .Bdesign tr, .Bdesign td {
@@ -117,7 +126,7 @@ th, td{
 	padding: 2% 15vw;
 
 }
-th, td a{color: #2e2100;}
+th, td a{color: #242424;}
 tr:nth-child(even){
 	background-color: #a9a9a9;
 }
@@ -125,13 +134,13 @@ tr:nth-child(odd){
 	background-color: #fff29e;
 }
 table a{text-decoration: none;}
-.Ldesign td:hover{background-color:#2e2100; text-decoration: underline;}
+.Ldesign td:hover{background-color:#242424; text-decoration: underline;}
 .Ldesign table a:hover{
 	 color:#fff29e;
 }
-.Bdesign td:hover{background-color:#2e2100; text-decoration: underline;}
+.Bdesign td:hover{background-color:#242424; text-decoration: underline;}
 .Bdesign table a:hover{
-	 color:#2e2100;
+	 color:#242424;
 }
 .Bdesign table a:hover{color: #fff29e; }
 .tablecontent{
@@ -139,7 +148,6 @@ table a{text-decoration: none;}
 	margin: auto;
 	margin-top: 3%;
 	text-align: center;
-	
 }
 .tablecontent tr td{font-size: 1.3rem;}
 .sectionname{
@@ -147,7 +155,7 @@ table a{text-decoration: none;}
 	font-size: 27px;
 }
 .Ldesign .sectionname{
-	background-image: radial-gradient(transparent 30%, #2e2100 80%);
+	background-image: radial-gradient(transparent 30%, #242424 80%);
 }
 .Bdesign .sectionname{
 	background-image: radial-gradient(transparent 30%, #fff29e 80%);
@@ -165,7 +173,7 @@ section{
 	font-weight: bold;
 }
 .Ldesign section .divpic{
-	border:2px solid #2e2100;
+	border:2px solid #242424;
 }
 .Bdesign section .divpic{
 	border:2px solid #fff29e;
@@ -176,12 +184,12 @@ section .divpic{
 	top:0;
 }
 .Ldesign section .divdescribe{
-	border:2px solid #2e2100;
+	border:2px solid #242424;
 }
 .Bdesign section .divdescribe{
-	border:2px solid #2e2100;
+	border:2px solid #242424;
 	background-color: #fff29e;
-	color: #2e2100;
+	color: #242424;
 }
 section .divdescribe{
 	padding: 2%;
@@ -190,20 +198,20 @@ section .divdescribe{
 }
 .Ldesign section .divdescribe span{
 	font-weight: bold;
-	color: #4d4d4d;
+	color: blue;
 }
 .Bdesign section .divdescribe span{
 	font-weight: bold;
-	color: #c4c4c4;
+	color: blue;
 }
 section h1{
 	margin: 3%;
 }
-.Ldesign footer{
-	padding: 2%;
+footer{
+	padding: 2%; margin-top: 2%; 
 }
 .Ldesign footer{
-	border-top: 2px solid #2e2100;
+	border-top: 2px solid #242424;
 }
 .Bdesign footer{
 	border-top: 2px solid #fff29e;
@@ -216,6 +224,43 @@ footer hr{
 	width: 40%;
 	margin: 1% auto;
 }
+/*Create Account Page*/
+.reg{
+	border:2px solid black;
+	border-radius: 3px;
+	margin: 2% auto;
+	width: 60%;
+	padding: 2% 2% 20px;
+	text-align: center;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.Ldesign .reg{
+	background-color: #242424;
+	color: #fff29e;
+}
+.Bdesign .reg{
+	background-color: #fff29e;
+	color: #242424;
+}
+.reg input{
+	margin: 0% auto;
+	width: 180px;
+}
+/*Current Events Page*/
+.tble{width: 75%;}
+.Ldesign .tble th{background-color: #242424; color: #fff29e; width: 40%;}
+.Ldesign .tble tr, .Ldesign .tble td{
+	border:none;
+	background-color:#fff29e; 
+}
+.Bdesign .tble th{background-color: #fff29e; color: #242424; width: 100%;}
+.Bdesign .tble tr, .Bdesign .tble td{
+	border:none;
+	background-color:#242424; 
+}
+/*reomve the hover color from .tablecontent class*/
+.tble td:hover{background-color: transparent; text-decoration: none;}
 @media screen and (min-width: 401px) and (max-width: 600px){
 	nav ul li{
 		font-size: 0.95rem;
@@ -237,6 +282,7 @@ footer hr{
 	}
 }
 @media screen and (max-width: 400px){
+	.reg input{width: 170px;}
 	nav ul li{
 		font-size: 0.7rem;
 	}
