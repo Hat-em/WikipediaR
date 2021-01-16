@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search - Wikipedia</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<script src="jquery-3.5.1.min.js"></script>
+	<meta charset="utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1"><link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="Ldesign">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="current events.html">Current Events</a></li>
+			<li><a href="search.html">Search</a></li>
+			<li style="margin-left: auto; margin-right: 2%;"><a href="register.html">Create Account</a></li>
+		</ul>
+	</nav>
+	<header>
+		<div id="theme">
+		<button onclick="toggletheme()" id="togglebutton">Dark Theme</button>
+		</div>
+
+		<h1 style="margin-top: -2%;">Wikipedia</h1>
+		<hr style="width: 38%;">
+		<hr style="width: 43%; margin-top: 5px;">
+		<h1 class="sectionname">Search</h1>
+		<p>Enter article name</p>
+	</header>
+	<div class="search">
+		<form class="search-form">
+			<input type="text" placeholder="Search for books, authors, categories and more..">
+			<input type="submit" value="Search">
+		</form>
+	</div>
+
+<button onclick="sortList()"  class="sortbtn">Sort</button>
+<div id="myBtnContainer">
+	<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Category 1')"> Science</button>
+  <button class="btn" onclick="filterSelection('Category 2')"> History</button>
+  <button class="btn" onclick="filterSelection('Category 3')"> Technology</button>
+  <button class="btn" onclick="filterSelection('Category 4')"> Politics</button>
+  <button class="btn" onclick="filterSelection('Category 5')"> Society</button>
+</div>
+<div class="container">
+  <div id="id01">
+  <p><a href="article.html" class="selectdiv Category 1">Article Two of the United States Constitution</a></p>
+  <p><a href="article.html" class="selectdiv Category 1">Constitution of the United States</a></p>
+  <p><a href="article.html" class="selectdiv Category 2">United States presidential line of succession</a></p>
+  <p><a href="article.html" class="selectdiv Category 3">List of amendments to the United States Constitution</a></p>
+  <p><a href="article.html" class="selectdiv Category 2">Federal pardons in the United States</a></p>
+  <p><a href="article.html" class="selectdiv Category 3">Twenty-fifth Amendment to the United States Constitution</a></p>
+  <p><a href="article.html" class="selectdiv Category 5">Law of nature</a></p>
+  <p><a href="article.html" class="selectdiv Category 5">Animism (redirect from Nature-spirit)</a></p>
+  <p><a href="article.html" class="selectdiv Category 2">Human nature</a></p>
+  <p><a href="article.html" class="selectdiv Category 1">Sky Nature</a></p>
+  <p><a href="article.html" class="selectdiv Category 2">Force of nature</a></p>
+  <p><a href="article.html" class="selectdiv Category 5">Nature Communications</a></p>
+  <p><a href="article.html" class="selectdiv Category 3">Imperial Aramaic</a></p>
+  <p><a href="article.html" class="selectdiv Category 4">Aramaic (disambiguation)</a></p>
+  <p><a href="article.html" class="selectdiv Category 4">Judeo-Aramaic languages</a></p>
+  <p><a href="article.html" class="selectdiv Category 4">Jewish Palestinian Aramaic</a></p>
+  <p><a href="article.html" class="selectdiv Category 4">Aramaic people</a></p>
+  <p><a href="article.html" class="selectdiv Category 2">Zold Aramaic</a></p>
+  <p><a href="article.html" class="selectdiv Category 1">Semitic languages</a></p>
+  <p><a href="article.html" class="selectdiv Category 2">Arising</a></p>
+</div>
+  
+</div>
+
+
+
+
+	<footer>
+		<p>Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.</p>
+		<hr>
+		<p>By using this site, you agree to the Terms of Use and Privacy Policy</p>
+		<hr>
+		<p>Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization</p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
